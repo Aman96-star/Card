@@ -16,7 +16,7 @@
 
 
 body{
-    background-color: #001422;
+    background-color:black;
     margin:0;
     display: flex;
     align-items: center;
@@ -51,28 +51,27 @@ body{
     border-radius: 100%;
     position: absolute;
 }
-.circle-1{
-    background-image:radial-gradient(63.62% 63.62% at 50% 50%, #FF00C7 0%, #BD95FF 0.01%, #5a16b4 32.29%, #a24abd 98.59%) ;
+.circle-1 {
+    background-image: radial-gradient(circle, #ffcc00 0%, #ff9900 40%, #ff6600 100%);
     width: 299px;
-    height:299px;
+    height: 299px;
     top: -20px;
-   right: -150px;
-    
-
-    
+    right: -150px;
 }
-.circle-2{
-    background-image:radial-gradient(63.62% 63.62% at 50% 50%, #434469 0%, #BD95FF 0.01%, #9d98a5 32.29%, #0906a1 98.59%) ;
+
+.circle-2 {
+    background-image: radial-gradient(circle, #ff9900 0%, #ffcc66 40%, #ff6600 100%);
     width: 138.34px;
-    height:138.34px;
+    height: 138.34px;
     top: -50px;
     left: -50px;
 }
-.circle-3{
-    background-image:radial-gradient(63.62% 63.62% at 50% 50%, #f0e5f7 0%, #7021c5 0.01%, #5a16b4 32.29%, #1f0327 98.59%) ;
+
+.circle-3 {
+    background-image: radial-gradient(circle, #ffcc66 0%, #ff9900c4 40%, #ff6600be 100%);
     width: 200.56px;
-    height:200.56px;
-    bottom:-50px;
+    height: 200.56px;
+    bottom: -50px;
     left: -50px;
     z-index: -99999;
 }
